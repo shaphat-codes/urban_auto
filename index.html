@@ -85,7 +85,7 @@
         <div class="nav-bar">
             <div class="container">
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                    <a href="#" class="navbar-brand">MENU</a>
+                    <a href="#" class="navbar-brand">Urban Autos</a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -613,7 +613,7 @@
                 const payload = new FormData(form)
                 console.log([...payload])    
                 
-                fetch('http://127.0.0.1:8000/sendmail/',{
+                fetch('https://urbanautosbackend.onrender.com/sendmail/',{
                     method: 'POST',
                     body: payload,
                 }
