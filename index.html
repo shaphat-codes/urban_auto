@@ -613,7 +613,7 @@
                 const payload = new FormData(form)
                 console.log([...payload])    
                 
-                fetch('https://urbanautosbackend.onrender.com/sendmail',{
+                fetch('https://urbanautosbackend.onrender.com/sendmail/',{
                     method: 'POST',
                     body: payload,
                 }
