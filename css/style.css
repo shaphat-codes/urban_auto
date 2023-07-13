@@ -228,7 +228,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #202C45;
+    background: white;
 }
 
 .nav-bar.nav-sticky {
@@ -242,7 +242,7 @@ a:focus {
 
 .nav-bar .navbar {
     padding: 20px 0;
-    background: #202C45 !important;
+    background: white;
     transition: .3s;
 }
 
@@ -269,7 +269,7 @@ a:focus {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: #202C45;
+    background: white;
 }
 
 .nav-bar .btn.btn-custom {
@@ -277,7 +277,12 @@ a:focus {
     background: white;
     box-shadow: inset 0 0 0 0 #E81C2E;
 }
-
+.desktop-nav{
+    
+}
+.hamburger-nav{
+    margin-left: 185px;
+}
 .nav-bar .btn:hover {
     color: white;
     background: #E81C2E;
@@ -287,6 +292,13 @@ a:focus {
 @media (min-width: 992px) {
     .nav-bar .navbar-brand {
         display: none;
+
+    }
+    .nav-bar{
+        background: #202C45;
+    }
+    .desktop-nav{
+        background: #202C45;
     }
     
 }
