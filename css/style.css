@@ -281,7 +281,7 @@ a:focus {
     
 }
 .hamburger-nav{
-    margin-left: 185px;
+    float: right;
 }
 .nav-bar .btn:hover {
     color: white;
