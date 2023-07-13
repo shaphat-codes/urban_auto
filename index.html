@@ -24,6 +24,19 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+            /* Set the border color */
+             
+            .custom-toggler.navbar-toggler {
+                
+            }
+            /* Setting the stroke to green using rgb values (0, 128, 0) */
+             
+            .custom-toggler .navbar-toggler-icon {
+                background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+        </style>
     </head>
 
     <body>
@@ -85,8 +98,8 @@
         <div class="nav-bar">
             <div class="container">
                 <nav class="navbar-expand-lg desktop-nav  navbar-dark">
-                    <a href="#" class="navbar-brand"><img width="80px" height="30px"  src = "img/urbanautoslogo.jpg"/></a>
-                    <button type="button" class="hamburger-nav navbar-toggler bg-secondary" data-toggle="collapse" data-target="#navbarCollapse">
+                    <a href="#" class="navbar-brand"><img width="80px" height="40px"  src = "img/urbanautoslogo.jpg"/></a>
+                    <button type="button" class="hamburger-nav navbar-toggler custom-toggler " data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 

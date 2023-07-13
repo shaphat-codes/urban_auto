@@ -281,6 +281,9 @@ a:focus {
 .hamburger-nav{
     float: right;
 }
+.custom-toggler {
+    border-color: black;
+}
 .nav-bar .btn:hover {
     color: white;
     background: #E81C2E;
